@@ -1,4 +1,6 @@
 class Customer
   
-  dif initialize(name)
+  dif initialize(name,age)
+  @name = name
+  @age = age
 end
