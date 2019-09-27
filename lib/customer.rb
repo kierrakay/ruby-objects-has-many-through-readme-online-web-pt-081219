@@ -19,6 +19,6 @@ end
 end
 
 def meals 
-  meals.all.self 
+  meals.all.self
 end
 end
