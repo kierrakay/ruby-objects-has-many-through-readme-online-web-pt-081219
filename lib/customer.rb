@@ -15,6 +15,6 @@ end
   end
   
   def new_meal(waiter, total, tip = 0)
-    Meal.all.new(waiter, self, total, tip)
+    Meal.new(waiter, self, total, tip)
 end
 end
